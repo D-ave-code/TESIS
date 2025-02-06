@@ -18,7 +18,7 @@ async def upload_images(file1: UploadFile = File(...)):
         shutil.copyfileobj(file1.file, buffer)
   
 
-    return {"message": "Imágenes subidas exitosamente", "file1": file1.filename}
+    return {"message": "Imágenes subidas exitosamehnte", "file1": file1.filename}
 
 @app.get("/model/{name1}")
 def use_model(name1: str):

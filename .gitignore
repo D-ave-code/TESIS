@@ -1,3 +1,4 @@
 /.venv
 /index.html
 /__pycache__
+.vercel
